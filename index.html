@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>PetName Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PetName Generator</h1>
+
+  <!-- Velg dyretype -->
+  <label for="animalType">Velg dyretype:</label>
+  <select id="animalType">
+    <option value="hund">Hund</option>
+    <option value="katt">Katt</option>
+    <option value="hamster">Hamster</option>
+    <option value="Furry">Furry</option>
+  </select>
+
+  <!-- Generer navn -->
+  <button id="generateBtn">Generer navn</button>
+
+  <!-- Vis generert navn -->
+  <p>Generert navn: <span id="generatedName">---</span></p>
+
+  <!-- Lagre favoritt -->
+  <button id="saveBtn">Lagre favoritt</button>
+
+  <!-- Link til favorittliste -->
+  <p><a href="favorit.html">Se favorittliste</a></p>
+
+  <!-- Koble til eksisterende JS -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+  font-family: 'Avenir', sans-serif;
+  margin: 30px;
+  text-align: center;
+  background-color: whitesmoke;
+  animation: fadeInPage 1.5s ease-in; 
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: all 0.3s ease; 
+}
+
+button:hover {
+  background-color: lightyellow;
+  cursor: pointer;
+  shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+   transition: all 0.3s ease; 
+}
+
+select {
+  font-size: 16px;
+  padding: 5px;
+  transition: all 0.3s ease; 
+}
+
+select:hover {
+  background-color: lightyellow;
+  cursor: pointer;
+  transform: scale(1.05);
+ transition: all 0.3s ease; 
+}
+
+@keyframes fadeInPage {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
